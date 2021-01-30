@@ -1,7 +1,7 @@
 {
-  "name": "𝔻𝔸ℝ𝕂 ℂ𝕆𝔹ℝ𝔸",
+  "name": "rootedcyber(maruf)",
   "description": "The best and most awaited userbot made by hellboi_atul and modified by Jarvis userbot's owner(@Sppidy) Made with ❤ For Support Join @Dark_cobra_support ",
-  "logo": "https://telegra.ph/file/00f47c54ceda3944dc47c.jpg ",
+  "logo": "https://telegra.ph/file/34a08bf1d9cf8e7fe2abb.jpg ",
     "keywords": [
     "telegram",
     "userbot",
@@ -9,9 +9,9 @@
     "modular",
     "productivity"
   ],
-  "repository": "https://github.com/DARK-COBRA/DARKCOBRA/",
-  "website": "https://github.com/DARK-COBRA/DARKCOBRA/",
-  "success_url": "https://t.me/Dark_cobra_support",
+  "repository": "https://github.com/rooted-cyber/My_Userbot/",
+  "website": "https://rootedcyber.blogspot.com/",
+  "success_url": "https://t.me/rootedcyber1",
   "env": {
     "ENV": {
       "description": "Setting this to ANYTHING will enable heroku.",
@@ -30,7 +30,7 @@
 
     "ALIVE_NAME": {
       "description": "Fill your Full name or Username like @hellboi_atul.",
-      "value": "",
+      "value": "@rootedcyber",
       "required": true
     },
     "AUTONAME": {
@@ -40,22 +40,22 @@
     },
     "ALIVE_MSG": {
       "description": "Set Custom awake Message When entering .awake command.",
-      "value": "",
+      "value": "hello",
       "required": true
     },
     "ALIVE_PHOTTO": {
       "description": "Let it be what it is(skip)..or you can change the link according to your convince..this link is useful for `.awake` command.",
-      "value": "https://telegra.ph/file/0d0fafe17acca1c51b42d.jpg",
+      "value": "https://telegra.ph/file/34a08bf1d9cf8e7fe2abb.jpg",
       "required": true
     },
-    "DEFAULT_BIO": {
+    "BIO_MSG": {
       "description": "Put Your Telegram Bio Here Required For Auto Bio.",
       "value": "",
       "required": false
     },
     "PMPERMIT_PIC": {
       "description": "put here any telegraph media link for pmpermit custom pic.",
-      "value": "https://telegra.ph/file/ad8430d78a8e1adb3d8ea.jpg",
+      "value": "https://telegra.ph/file/3dc3b36e47a27463a255e.jpg",
       "required": true
     },
     "PM_PERMIT_GROUP_ID": {
@@ -89,24 +89,24 @@
     },
     "API_HASH": {
       "description": "Get this value from my.telegram.org! Please do not steal",
-      "value": ""
+      "value": "e9746721493a910d201d898b4329da8f"
     },
     "PLUGIN_CHANNEL": {
       "description": "Create a private group add rose  then type /id. PLUGIN_CHANNEL and PRIVATE_GROUP_ID both values should be same",
-      "value": ""
+      "value": "-1001446383173"
     },
     "PRIVATE_GROUP_BOT_API_ID": {
       "description": "create a private channel and then type .get_id add that value here for save messages",
-      "value": ""
+      "value": "-1001446383173"
     },
     "PRIVATE_GROUP_ID": {
       "description": "Create a private group add rose bot then type /id. PLUGIN_CHANNEL and PRIVATE_GROUP_ID both values should be same",
-      "value": ""
+      "value": "-1001446383173"
    },
     "TAG_LOG": {
       "description": "Create a group where u want ur tags logs will come add rose bot then get id ,set value, if not then leave blank  ",
-      "value": "",
-      "required" : true
+      "value": "-1001446383173",
+      "required" : false
    },
     "OCR_SPACE_API_KEY": {
       "description": "Needed for ocr.py, get it from ocr.space .",
@@ -115,11 +115,11 @@
     },
     "PM_LOGGR_BOT_API_ID": {
        "description": "for login private messages create a private channel and do .get_id and add that id", 
-       "value": ""
+       "value": "-1001446383173"
     }, 
     "STRING_SESSION": {
       "description": "Get this value by running https://darkcobra.crazycreatorr.repl.run/ ",
-      "value": "",
+      "value": "1BVtsOHQBu2jkWF-ymTSjEuBDeQSLEZT7awBpeDv6-h0kmqe1Ru8YT5KBTMbFTVIoPqKy0k7CdePhStKEuv9l3XEz5wLh6c3RgzjXnqX50GEx1vbcPZPYZwsHMoPlpnqEDvABbazjKuzXPptry2gSUhR0KCTkvXGLS1uGau7hWLm8TD1g3VswpLbVhVBPqhg5nPF3GlawtwtXL1mVMCUHsDKyCGKjv8_KwQsVqQRHrM9vhp0s5JutIFpGZM8CySQcmPXNvmDqUgz2am6YImhkZRDxCqAN7cG7F_E8oXDEfY5jbVuwwN1xakMv-ZOXaDcfCacA18zqy6Gh0a8YPqVSrqAzVrplQb4=",
       "required": true
     },
     "GITHUB_ACCESS_TOKEN": {
@@ -139,7 +139,7 @@
     },
     "HEROKU_API_KEY": {
       "description": "Go to https://dashboard.heroku.com/account, scroll down and press Reveal API.Required for updater to work.",
-      "value": "",
+      "value": "7cc3bd55-0f64-4108-8e61-53f493a69aad",
       "required": true
     },
     "HEROKU_APP_NAME": {
@@ -149,7 +149,7 @@
     },
     "TG_BOT_TOKEN_BF_HER": {
       "description": "Needed for inline buttons maker. Make a bot at [BotFather](http://telegram.dog/BotFather) and get the token of your bot. And Don't Forget To Turn of inline Mode on bot settings. Get it.",
-      "value": "",
+      "value": "1481723788:AAGB6Ny5DzbOfBjCNnrOlmbojjBOo0MySF4",
       "required": true
     },
     "CHROME_BIN": {
@@ -164,7 +164,7 @@
     },
     "TG_BOT_USER_NAME_BF_HER": {
       "description": "Needed for inline buttons maker. Make a bot at [BotFather](http://telegram.dog/BotFather) and get the username of your bot",
-      "value": "",
+      "value": "rootedcyber8_bot",
       "required": true
     },
     "DOWNLOAD_PFP_URL_CLOCK": {
@@ -178,7 +178,7 @@
     },
     "NO_OF_BUTTONS_DISPLAYED_IN_H_ME_CMD": {
       "description": " Set The Amount Of Buttons Displayed In Help Command",
-      "value": "7",
+      "value": "11",
       "required": true
     },
     "NO_OF_COLUMS_DISPLAYED_IN_H_ME_CMD": {
@@ -188,7 +188,7 @@
     },
     "EMOJI_TO_DISPLAY_IN_HELP": {
       "description": "Set The emojies You Want to Add In Help Command You Can Add Multiple Emojies too!!",
-      "value": "📨",
+      "value": "📨💗",
       "required": true
     },
     "SUDO_USERS": {

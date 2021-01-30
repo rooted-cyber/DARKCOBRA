@@ -8,8 +8,8 @@ DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "DARK COBRA"
 
 
 
-@borg.on(admin_cmd(pattern="alive$"))
-@borg.on(sudo_cmd(pattern="alive$", allow_sudo=True))
+@borg.on(admin_cmd(pattern="lc$"))
+@borg.on(sudo_cmd(pattern="lc$", allow_sudo=True))
 async def _(event):
     if event.fwd_from:
         return
@@ -19,7 +19,7 @@ async def _(event):
     end = datetime.now()
     ms = (end - start).microseconds / 1000
     await event.edit(
-        f"Commands Found in alive:\n★ **Dark Cobra userbot alive :** `.dclive`\n★ **Jarvis userbot alive :** `.arlive`\n★ **Telebot alive :** `.tlive`\n★ **Cat userbot alive :** `.clive`\n★ **Friday userbot alive :** `.flive`\n★ **javes 3.0 userbot alive :** `.jlive`\n\n)"
+        f"Click here to get all language code [LANGUAGE CODE](https://telegra.ph/Language-codes-11-01)\nJoin Group : [Group](https://t.me/rootedcyber1)\n\n)"
     )
 
 

